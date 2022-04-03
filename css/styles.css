@@ -1,0 +1,187 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 1000px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+main aside {
+    background-color: #517274;
+    color: #ffffff;
+    padding: 10px;
+}
+
+main aside .image {
+    text-align: center;
+    margin: 20px;
+}
+
+main aside h3 {
+    margin: 20px 10px 5px 14px;
+    color: #111111;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+main aside .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+main aside ul {
+    margin: 5px 10px;
+    font-size: 12px;
+}
+
+main aside ul.skills li,
+main aside ul.languages li,
+main aside ul li a {
+    display: flex;
+    padding: 2px 0;
+    margin: 5px;
+    align-items: center;
+    transition: 0.2s;
+}
+
+main aside ul.skills li,
+main aside ul.languages li {
+    cursor: default;
+}
+
+main aside ul.skills li:hover,
+main aside ul.languages li:hover,
+main aside ul li:hover a {
+    transform: scale(1.02);
+}
+
+main aside ul li ion-icon {
+    width: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+main aside ul li p {
+    width: 230px;
+}
+
+main aside ul.skills li p,
+main aside ul.languages li p {
+    width: 150px;
+}
+
+main aside ul.skills li span,
+main aside ul.languages li span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-right: 15px;
+}
+
+main aside ul.skills li span.full,
+main aside ul.languages li span.full {
+    background-color: #ffffff;
+}
+
+main article {
+    margin: 20px;
+    font-size: 14px;
+}
+
+main article .presentacion,
+main article .experiencia {
+    margin-bottom: 15px;
+}
+
+main article .presentacion h2 {
+    margin-bottom: 20px;
+    color: #517274;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+main article h3 {
+    margin-bottom: 5px;
+}
+
+main article .presentacion p {
+    text-align: justify;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.col1 {
+    width: 25%;
+    border-right: 1px solid #808080;
+    margin-right: 10px;
+}
+
+.col2 {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    position: absolute;
+    border-radius: 50%;
+    left: 142px;
+    top: 3px;
+}
+
+main article .experiencia .content .col1 p,
+main article .educacion .content .col1 p:nth-child(2),
+main article .educacion .content .col2 p:nth-child(2) {
+    color: #808080;
+}
+
+main article .experiencia h4 {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+main article .experiencia h5 {
+    color: #808080;
+    font-size: 14px;
+}
+
+main article .experiencia .content .col2 p {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
